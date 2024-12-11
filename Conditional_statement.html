@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conditional Statement Javascript</title>
+</head>
+<body>
+    
+</body>
+</html>
+
+<script>
+    //An age check is being conducted to determine voting eligibility
+
+    let age=10
+
+    if(age>18){
+        console.log("You are eligible for voting")
+    }
+    else {
+        console.log("You are not eligible for voting")
+    }
+
+    // which number is maximum
+
+    let a=450
+    let b=50
+
+    if(a>b){
+        console.log("A is Maximum")
+    }
+    else {
+        console.log("B is Maximum")
+    }
+
+
+    // which number is maximum
+
+    let aa=2050
+    let bb=1500
+    let cc=450
+
+    if(aa>bb && aa>cc){
+        console.log("A is Maximum")
+    }
+    else if (bb>cc && bb>aa){
+
+        console.log("B is Maximum")
+    }
+    else {
+        console.log("C is Maximum")
+    }
+
+    // check number is zero , positive or negative
+
+    let number=-1
+
+    if(number>0){
+        console.log("Number is Positive")
+
+    }
+    else if(number<0) {
+        console.log("Number is negative")
+
+    }
+    else{
+        console.log("Number is zero")
+    }
+
+    // number is divisible by 10 or 100
+
+    let no=20   
+    
+     if(no%10==0 && no%100==0){
+        console.log("Number is divisible by 10 and 100")
+
+    }
+    else {
+        console.log("Number is not divisible by 10 and 100")
+    }
+
+    // check the number is odd or even
+
+    let number1=20
+
+    if(number1%2==0){
+        console.log("Number is EVen")
+
+    }
+    else {
+        console.log("Number is odd")
+    }
+
+    // check year is leap or not
+
+    let year=2022
+    if(year%4==0){
+        console.log("This is Leap Year")
+
+    }
+    else {
+        console.log("This is not Leap Year")
+    }
+
+    // check the weather its digit or alphabet
+    let ch='#'
+
+    if(ch>='0' && ch<='9'){
+        console.log("Ch is Digit")
+
+    }
+    else if(ch>='a' && ch<='z' || ch>='A' && ch<='Z') {
+        console.log("Ch is alphabet")
+    }
+    else{
+        console.log("Ch is not digit or alphabet")
+    }
+
+    //check weather value is vowel or consonant
+
+    let value="b"
+
+    if(value=="A" || value=="E" || value=="I" ||value=="O" || value=="U" || value=="a" || value=="e" || value=="i"|| value=="o"||
+        value=="u")
+        {
+            console.log("value is vowel")
+        }
+        else{
+            console.log("value is consonant")
+        }
+
+        // find out december 2024 days
+
+        let day=13
+
+        if(day==1 || day==8 || day==15 ||day==22 || day==29){
+            console.log("Sunday")
+        }
+        else if(day==2 || day==9 || day==16 || day==23 || day==30){
+            console.log("Monday")
+        }
+        else if(day==3 || day==10 || day==17 || day==24 || day==31){
+            console.log("Tuesday")
+        }
+        else if(day==4 || day==11 || day==18 || day==25){
+            console.log("Wednesday")
+        }
+        else if(day==5 || day==12 || day==19 || day==26){
+            console.log("Thursday")
+        }
+        else if(day==6 || day==13 || day==20 || day==27){
+            console.log("Friday")
+        }
+        else if(day==7 || day==14 || day==21 || day==28){
+            console.log("Saturday")
+        }
+        else {
+            console.log("Invalid input")
+        }
+        
+</script>
